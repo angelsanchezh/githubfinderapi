@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Github Finder</title>
+    <!-- link de fontaweson icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- link de boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./main.css">
+  </head>
+  <body>
+    <section
+      class="container vh-100 d-flex align-items-center justify-content-center"
+    >
+      <div class="text-start w-75">
+        <h5>GITHUB FINDER</h5>
+        <div class="row">
+          <div class="col-md-10">
+            <input
+            id="github-search"
+              type="text"
+              class="form-control"
+              placeholder="Buscar Usuario"
+            />
+          </div>
+
+          <div class="col-md-2">
+            <div class="d-grip gap-2">
+              <button id="github-action-search" class="btn btn-primary">Buscar</button>
+            </div>
+          </div>
+
+          <div class="col-md-12 mt-4">
+            <div class="card bg-color">
+              <div class="card-body p-5">
+                <div class="row">
+                  <div class="col-md-2">
+                    <img
+                    id="img-profile"
+                      src="https://pbs.twimg.com/media/EmUM83TXIAAss5k.png"
+                      alt="octocat"
+                      width="100"
+                      height="100"
+                      class="rounded-circle img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-10">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h4 id="github-name">The octocat</h4>
+                        <p id="github-username" class="text-primary">@octocat</p>
+                        <p id="github-bio">This Profile has no Bio</p>
+                      </div>
+                      <div class="col-md-6 text-end">
+                        <p>Joined 24 Agos 2022</p>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="card">
+                          <div class="card-body bg-color">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <p >Repos</p>
+                                <h4 id="github-repos">10</h4>
+                              </div>
+                              <div class="col-md-4">
+                                <p>Followers</p>
+                                <h4 id="github-followers">54300</h4>
+                              </div>
+                              <div class="col-md-4">
+                                <p>Following</p>
+                                <h4 id="github-following">12</h4>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="row">
+                          <div class="col-md-6 mt-4">
+                            <p>
+                              <i class="fa-solid fa-location-dot"></i>
+                              <span id="github-ubicacion"> Lima</span>
+                            </p>
+                          </div>
+                          <div class="col-md-6 mt-4">
+                            <p>
+                              <i class="fa-brands fa-twitter"></i>
+                              <span id="github-twitter"> not available</span>
+                            </p>
+                          </div>
+                          <div class="col-md-6 mt-4">
+                            <p>
+                              <i class="fa-solid fa-link"></i>
+                              <span id="github-html"> https://github.com</span>
+                            </p>
+                          </div>
+                          <div class="col-md-6 mt-4">
+                            <p>
+                              <i class="fa-solid fa-building"></i>
+                              <span id="github-work"> @github</span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

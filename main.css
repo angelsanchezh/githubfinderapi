@@ -1,0 +1,19 @@
+
+
+body{
+    font-family:sans-serif;
+ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj2znVf7Mafc3by4waQZ7DhrdHhmKdQI_efA&usqp=CAU);
+background-size: cover;
+}
+section{
+    color: #fff;
+}
+.bg-color{
+    background-color: rgb(33, 9, 74);
+    border-radius: 10px;
+    -webkit-box-shadow: 22px -3px 43px -18px rgba(239,245,247,1);
+    -moz-box-shadow: 22px -3px 43px -18px rgba(239,245,247,1);
+    box-shadow: 22px -3px 43px -18px rgba(239,245,247,1);
+
+
+}
